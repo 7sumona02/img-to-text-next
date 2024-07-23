@@ -60,7 +60,7 @@ const Page: React.FC = () => {
       <div className="w-full max-w-3xl mx-auto py-12 px-4 md:px-6 mt-20 text-cyan-100">
         <div className="space-y-4 text-center">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl pb-4">Image to Text</h1>
-          <Input type="url" placeholder="Enter the URL ..." value={url} onChange={handleUrlChange} className="text-cyan-100 md:text-lg border-zinc-800 bg-neutral-950" />
+          <Input type="url" placeholder="Enter image URL ..." value={url} onChange={handleUrlChange} className="text-cyan-100 md:text-lg border-zinc-800 bg-neutral-950" />
         </div>
         <div className="mt-10 space-y-6">
           <div className="flex flex-col items-center justify-center space-y-4 rounded-xl border border-dashed border-cyan-800 p-8 transition-colors hover:border-cyan-800/80">
